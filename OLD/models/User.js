@@ -20,11 +20,6 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    permission: {
-      type: DataTypes.BOOLEAN,
-      allowNull: false,
-      defaultValue: false,
-    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
